@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Red-UI/redui-button/issues"
   },
-  "homepage": "https://github.com/Red-UI/redui-button#readme"
+  "homepage": "https://github.com/Red-UI/redui-button#readme",
+  "dependencies": {
+    "classnames": "^2.2.5"
+  }
 }

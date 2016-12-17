@@ -1,3 +1,31 @@
-.redui-button {
-  color: yellow;
+@prefix: redui;
+
+.@{prefix}-btn {
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 22px;
+  border-radius: 14px;
+  border: none;
+  outline: none;
+  &-primary {
+    background-color: #3FC0CD;
+    color: #fff;
+    &:hover {
+      background-color: #00b3c1;
+      color: #8fe3e9;
+    }
+    &.@{prefix}-btn-disabled {
+      background-color: #99e8ec;
+      color: #fff;
+    }
+  }
+
+  &-normal {
+    color: red;
+  }
+
+  &-alert {
+    color: red;
+  }
 }

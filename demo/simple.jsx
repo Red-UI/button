@@ -1,12 +1,20 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import ReduiButton from '../src'
+import Button from '../src'
 
 class DemoSimple extends Component {
 
+  onHover = () => {
+    console.log('onhover')
+  }
+
   render() {
     return (
-      <ReduiButton>Demo Simple</ReduiButton>
+      <div>
+        <Button>Primary</Button>
+        <Button disabled>Primary + Disabled</Button>
+        <Button onHover={this.onHover}>Trigger Hover</Button>
+      </div>
     )
   }
 }
