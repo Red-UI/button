@@ -1,0 +1,20 @@
+{
+  "name": "redui-button",
+  "version": "0.1.0",
+  "description": "redui button",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Red-UI/redui-button.git"
+  },
+  "keywords": [],
+  "author": "Ling.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Red-UI/redui-button/issues"
+  },
+  "homepage": "https://github.com/Red-UI/redui-button#readme"
+}
